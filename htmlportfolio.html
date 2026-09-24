@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elmer Abugan - Data Analyst</title>
+
+    <style>
+
+
+        /* =========================
+           RESET
+        ========================= */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /* =========================
+           PAGE
+        ========================= */
+
+        body {
+
+            font-family: Arial, Helvetica, sans-serif;
+            color: #1e293b;
+            line-height: 1.7;
+
+            background-image: url("sample_img.jpg");
+            background-size: cover;
+            background-position: center;
+
+            min-height: 100vh;
+
+        }
+
+
+        /* =========================
+           MAIN CONTENT WIDTH
+        ========================= */
+
+        body > h1,
+        body > h2,
+        body > p,
+        body > hr,
+        body > .video-section {
+            max-width: 950px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+        /* =========================
+           HEADER
+        ========================= */
+
+        body > h1 {
+            padding-top: 60px;
+
+            font-size: 42px;
+            color: #0f172a;
+            margin-bottom: 5px;
+        }
+
+        body > h2 {
+            font-size: 21px;
+            font-weight: 500;
+            color: #2563eb;
+            margin-bottom: 15px;
+        }
+
+        body > p {
+            color: #64748b;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+
+
+        /* =========================
+           DIVIDER
+        ========================= */
+
+        hr {
+            border: none;
+            height: 1px;
+            background: #cbd5e1;
+
+            margin-top: 30px;
+            margin-bottom: 45px;
+        }
+
+
+        /* =========================
+           PROJECT SECTION
+        ========================= */
+
+        body > h2:nth-of-type(2) {
+            background: #ffffff;
+
+            border-radius: 16px 16px 0 0;
+
+            padding: 30px 35px 10px;
+
+            color: #0f172a;
+            font-size: 28px;
+
+            margin-bottom: 0;
+        }
+
+
+        /* =========================
+           PROJECT HEADINGS
+        ========================= */
+
+        h3 {
+            max-width: 950px;
+            margin-left: auto;
+            margin-right: auto;
+
+            background: #ffffff;
+
+            padding: 20px 35px 5px;
+
+            color: #2563eb;
+            font-size: 18px;
+        }
+
+
+        /* =========================
+           PROJECT DESCRIPTION
+        ========================= */
+
+        h3 + p {
+            max-width: 950px;
+            margin-left: auto;
+            margin-right: auto;
+
+            background: #ffffff;
+
+            padding: 5px 35px 20px;
+
+            color: #64748b;
+            font-size: 15px;
+        }
+
+
+        /* =========================
+           FEATURES
+        ========================= */
+
+        ul {
+            max-width: 950px;
+            margin-left: auto;
+            margin-right: auto;
+
+            background: #ffffff;
+
+            padding: 5px 35px 35px 55px;
+
+            border-radius: 0 0 16px 16px;
+        }
+
+        li {
+            color: #475569;
+            padding: 7px 0;
+        }
+
+        li::marker {
+            color: #2563eb;
+        }
+
+        li:hover {
+            color: #2563eb;
+        }
+
+
+        /* =========================
+           VIDEO SECTION
+        ========================= */
+
+        .video-section {
+            margin-top: 45px;
+
+            background: #ffffff;
+
+            padding: 35px;
+
+            border-radius: 16px;
+
+            box-shadow:
+                0 8px 25px rgba(15, 23, 42, 0.08);
+        }
+
+        .video-section h2 {
+            color: #0f172a;
+            font-size: 28px;
+
+            margin-bottom: 10px;
+        }
+
+        .video-section p {
+            color: #64748b;
+
+            margin-bottom: 25px;
+
+            font-size: 15px;
+        }
+
+
+        /* =========================
+           VIDEO
+        ========================= */
+
+        .video-container {
+            position: relative;
+
+            width: 100%;
+
+            aspect-ratio: 16 / 9;
+
+            overflow: hidden;
+
+            border-radius: 12px;
+
+            background: #0f172a;
+        }
+
+        .video-container iframe {
+            position: absolute;
+
+            width: 100%;
+            height: 100%;
+
+            border: none;
+
+            top: 0;
+            left: 0;
+        }
+
+
+        /* =========================
+           MOBILE
+        ========================= */
+
+        @media (max-width: 600px) {
+
+            body {
+                background-attachment: scroll;
+            }
+
+            body > h1 {
+                padding-top: 35px;
+
+                font-size: 32px;
+
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            body > h2 {
+                font-size: 18px;
+
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            body > p {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            body > h2:nth-of-type(2) {
+                font-size: 23px;
+
+                padding: 25px 22px 10px;
+            }
+
+            h3 {
+                padding-left: 22px;
+                padding-right: 22px;
+            }
+
+            h3 + p {
+                padding-left: 22px;
+                padding-right: 22px;
+            }
+
+            ul {
+                padding-left: 42px;
+                padding-right: 22px;
+            }
+
+            .video-section {
+                margin-left: 15px;
+                margin-right: 15px;
+
+                padding: 22px;
+            }
+
+            .video-section h2 {
+                font-size: 23px;
+            }
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+
+    <!-- =========================
+         HEADER
+    ========================= -->
+
+    <h1>Elmer Abugan</h1>
+
+    <h2>
+        Data Analyst & Audit Automation Specialist
+    </h2>
+
+    <p>
+        Python | Pandas | Data Analysis |
+        Data Visualization | Automation
+    </p>
+
+
+    <hr>
+
+
+    <!-- =========================
+         PROJECT
+    ========================= -->
+
+    <h2>
+        Call Log Audit & Reporting Automation
+    </h2>
+
+
+    <h3>Problem</h3>
+
+    <p>
+        The auditing process required manually reviewing call logs,
+        checking caller activity, working hours, and survey results.
+    </p>
+
+
+    <h3>Solution</h3>
+
+    <p>
+        Developed a customized Python application to automate
+        the auditing and reporting process.
+    </p>
+
+
+    <h3>Features</h3>
+
+    <ul>
+        <li>Call activity analysis</li>
+        <li>Working-hours checking</li>
+        <li>Survey discrepancy detection</li>
+        <li>Automated reporting</li>
+        <li>Data visualization and graphs</li>
+    </ul>
+
+
+    <!-- =========================
+         VIDEO DEMONSTRATION
+    ========================= -->
+
+    <div class="video-section">
+
+        <h2>
+            Video Demonstration
+        </h2>
+
+        <p>
+            Watch a short demonstration of the application
+            and how it processes call-log data for auditing
+            and reporting.
+        </p>
+
+
+        <div class="video-container">
+
+            <iframe
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/watch?v=YUJGy1URZgo"
+                title="Project Presentation"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
